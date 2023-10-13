@@ -72,8 +72,8 @@ function submitButton (e){
 function onedit(e){
     if(e.target.classList.contains('edit')){
         if(confirm("Are you want to edit")){
-            // let rem = e.target.parentElement;
-            // ul.removeChild(rem);
+            let rem = e.target.parentElement;
+            ul.removeChild(rem);
             // expense.value=localStorage.getItem("exl")
             // description.value=localStorage.getItem("desl")
             // category.value=localStorage.getItem("catl")
